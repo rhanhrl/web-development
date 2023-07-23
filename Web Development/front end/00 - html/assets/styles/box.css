@@ -1,0 +1,37 @@
+/* Box dimensions - mengatur nilai dimensi dari box tersebut dengan properti width dan height.*/
+
+.box {
+    height: 300px;
+    width: 300px;
+    background-color: #11C5C6;
+}
+
+/* Limiting dimensions - properti yang sangat membantu untuk memastikan konten halaman dapat terbaca oleh pengguna*/
+
+head {
+    max-width: 800px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: deeppink;
+}
+
+/* Overflow content - Dimensi box yang dihasilkan elemen selalu cukup untuk menampung konten tetapi hal ini tidak berlaku jika kita tetapkan secara manual panjang dan lebarnya.
+visible : Merupakan nilai default pada properti ini. Konten yang tidak tertampung (overflow) akan tetap ditampilkan seperti pada standarnya.
+hidden : Jika terjadi overflow, maka konten yang tidak tertampung akan disembunyikan.
+scroll : Memunculkan scroll bar pada pinggir elemen, sehingga konten yang tidak tertampung akan ditampilkan dengan scroll bar. Jika menggunakan nilai ini, scroll bar akan tetap muncul walaupun konten tidak terjadi overflow.
+auto : Sama seperti scroll, bedanya jika tidak terjadi overflow, maka nilai visible yang akan diterapkan. */
+
+div {
+    height: 400px;
+    width: 400px;
+    background-color: lightgreen;
+    overflow: scroll;    
+}
+
+/* Box sizing - memilih tipe pengukuran lain dalam menentukan dimensi elemen. 
+Dengan menggunakan properti box-sizing kita dapat menentukannya berdasarkan border box, di mana ukuran elemen sudah termasuk content, padding dan border. 
+Dengan metode ini, hasil elemen yang ditampilkan (termasuk padding dan border) akan memiliki dimensi yang sama persis seperti yang kita tentukan. */
+
+main {
+    box-sizing: content-box;
+}

@@ -1,0 +1,34 @@
+/* Border width digunakan untuk mengatur ketebalan dari border. */
+
+nav {
+    border-top-width: 2px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 2px;
+}
+
+.border {
+    border-width: 2px 1px 1px 2px;
+}
+
+/* Border style menetapkan tipe border dengan menggunakan properti border-style. */
+
+article {
+    border-top-style: solid;
+    border-right-style: dashed;
+    border-bottom-style: double;
+    border-left-style: groove;
+}
+
+/* Border color Properti ini digunakan untuk menentukan warna pada garis dengan menggunakan nilai RGB, Hex, atau nama warna pada CSS. */
+
+section {
+    border-color: rgb(80, 138, 212);
+}
+
+/* Shorthand memiliki tiga buah nilai yang digunakan untuk menentukan ketebalan, tipe dan warna pada border. */
+
+aside {
+    border: 4px dashed red;
+    width: 200px;
+}

@@ -1,0 +1,7 @@
+/* Display - dengan menggunakan properti display, kita dapat mengubah sebuah elemen inline menjadi block, begitupun sebaliknya. 
+Dalam hal ini, properti ini juga dapat digunakan untuk menyembunyikan elemen yang ditampilkan. */
+
+li {
+    display: inline;
+    margin-left: 5px;
+}

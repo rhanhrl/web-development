@@ -1,0 +1,8 @@
+/* Margin merupakan ruang atau jarak pada sebuah elemen */
+
+section {
+    margin-top: 15px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}

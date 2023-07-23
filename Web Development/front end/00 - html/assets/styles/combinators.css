@@ -1,0 +1,31 @@
+/* adjescent sibling selector 
+menggabungkan
+*/
+
+h1 + h1 {
+    color: red;
+}
+
+/* general sibling selector 
+induknya sama, walaupun posisi dari elemen kedua tidak berada tepat setelahnya.
+*/
+
+p ~ title {
+    color: aquamarine;
+}
+
+/* child selector
+menggabungkan dua buah basic selector dengan menggunakan tanda greater than (>)
+*/
+
+div > main {
+    background-color: blueviolet;
+}
+
+/* descendant selector
+mirip seperti child selector namun hierarkinya lebih luas, karena rule akan diterapkan pada seluruh elemen yang menjadi turunannya walaupun secara tidak langsung.
+*/
+
+div p {
+    padding: 20;    
+}

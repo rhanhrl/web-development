@@ -1,0 +1,76 @@
+/* Float dapat membuat elemen berada pada sebelah kanan atau kiri. Saat diterapkan pada elemen inline, 
+properti float juga memungkinkan elemen di sekitarnya mengelilingi elemen tersebut (wrap)*/
+
+
+.container {
+    width: 800px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    
+}
+
+img {
+    float: left;
+    margin: 10px;
+}
+
+/* digunakan untuk menghapus seluruh padding dan margin standar yang diberikan browser pada elemen */
+* {
+    margin: 0;
+    padding: 0;
+    /* Menggunakan border-box dalam perhitungan dimensi box-nya */
+    box-sizing: border-box;
+}
+
+.left-content {
+    width: 33.3%;
+    height: 100%;
+    text-align: center;
+    line-height: 400px;
+    background-color: #00c7ed;
+    float: left;
+}
+
+.center-content {
+    width: 33.3%;
+    height: 100%;
+    text-align: center;
+    line-height: 400px;
+    background-color: #d0b541;
+    float: left;
+}
+
+.right-content {
+    width: 33.3%;
+    height: 100%;
+    text-align: center;
+    line-height: 400px;
+    background-color: #60d0a8;
+    float: right;
+}
+
+
+.container {
+    width: 800px;
+    /* Overflow adalah cara praktis untuk memperbaiki*/
+    overflow: auto;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+/* Clear nilai yang digunakan pada properti float karena properti clear akan menghapus 
+sifat float sesuai dengan nilai yang ditetapkan. */
+
+.clear {
+    clear: left;
+}
+
+.clear {
+    clear: right
+}
+
+.clear {
+    clear: both;
+}

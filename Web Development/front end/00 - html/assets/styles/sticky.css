@@ -1,0 +1,13 @@
+/* Sticky navigation adalah nilai kombinasi dari relative positioning (menempati posisi di mana ia seharusnya berada) dan 
+(melekat pada jendela browser) fixed positioning.*/
+
+nav {
+    background-color: aqua;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+
+header {
+    display: inline;
+}

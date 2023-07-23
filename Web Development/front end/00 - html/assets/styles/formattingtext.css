@@ -1,0 +1,24 @@
+/* Font Family - Menetapkan jenis font yang akan diterapkan pada target*/
+body {
+    font-family: sans-serif;
+}
+
+/* Font Size - Menentukan ukuran pada teks.*/
+h1 {
+    font-size: 1.5em;
+}
+
+/* Font Weight - Menentukan ketebalan pada teks.*/
+main {
+    font-weight: 100;
+}
+
+/* Font Style - Menetapkan styling yang diterapkan pada teks.*/
+div {
+    font-style: italic;
+}
+
+/* Font Variant - Menentukan teks untuk menggunakan gaya small caps (huruf kapital kecil).*/
+article {
+    font-variant: small-caps;
+}

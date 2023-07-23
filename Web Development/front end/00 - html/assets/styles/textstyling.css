@@ -1,0 +1,77 @@
+/* Line Height 
+untuk mengatur jarak minimal dari garis dasar ke garis dasar dalam menampilkannya teks pada halaman. */
+
+p {
+    line-height: 1em;
+}
+
+p {
+    line-height: 12%;
+}
+
+p {
+    line-height: 1in;
+}
+
+/* Text Indent 
+jarak/lekuk di awal paragraf.*/
+
+a#first {
+    text-indent: 2em;
+}
+
+a#second {
+    text-indent: 25%;
+}
+
+a#third {
+    text-indent: -35px;
+}
+
+/* Text Alignment 
+perataan teks */
+
+p#first {
+    text-align: left;
+}
+ 
+p#second {
+    text-align: right;
+}
+ 
+p#third {
+    text-align: center;
+}
+ 
+p#fourth {
+    text-align: justify;
+}
+
+/* Text Decoration - digunakan ketika kita ingin membuat garis bawah atau underline pada teks. */
+
+#decoration {
+    text-decoration: underline;
+}
+
+/* Text Transform - mengubah kapitalisasi tanpa harus menuliskan kembali teksnya. */
+
+.transform {
+    text-transform: none;
+}
+
+/* Word & letter spacing - properti ini digunakan untuk mengatur spasi atau jarak pada teks. */
+
+a.word {
+    word-spacing: 1.5em;
+}
+
+a.letter {
+    letter-spacing: 4px;
+}
+
+/* Text Shadow - Memberikan bayangan pada teks. */
+
+#shadow {
+    text-shadow: 2px 2px 1px #d2691e;
+}
+

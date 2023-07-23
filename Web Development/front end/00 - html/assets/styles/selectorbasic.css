@@ -1,0 +1,77 @@
+/* type selector = menggunakan sebuah elemen sebagai target untuk ditetapkannya rule */
+
+span {
+    color: red;
+}
+
+/* class selector = menetapkan target elemen berdasarkan nilai nilai atribut class */
+
+.red {
+    color: red ;
+}
+
+.skyblue-bg {
+    background-color: skyblue;
+}
+
+.fancy {
+    font-weight: bold;
+    text-shadow: 4px 4px 3 px #77f;
+}
+
+/* id selector = menetapkan target elemen berdasarkan nilai id yang diterapkannya */
+
+#darkness {
+    background-color: skyblue;
+}
+
+/* attribute selector = cara menetapkan elemen berdasarkan sebuah atribut yang digunakan 
+atau bahkan bisa lebih spesifik */
+
+/* <a> element yang menerapkan href attribut */
+a[href] {
+    color: blue;
+}
+
+/* <a> element yang menerapkan nilai pada href dengan awalan "#" */
+a[href^="#"] {
+    background-color: gold;
+}
+
+/* <a> element yang menerapkan nilai pada href yang mengandung teks "example" */
+a[href*="example"] {
+    background-color: silver;
+}
+
+/* <a> element yang menerapkan nilai pada href yang mengandung teks "insensitive" tidak mementingkan huruf kapital*/
+a[href*="insensitive" i] {
+    color: cyan;
+}
+
+/* <a> element yang menerapkan nilai pada href dengan akhiran ".org" */
+a[href$=".org"] {
+    color: red;
+}
+
+/* universal selector = yang mencakup semua elemen, dan juga bisa lebih spesifik */
+
+/* Menargetkan seluruh tipe elemen */
+* {
+    color: green;
+}
+      
+/* Menargetkan seluruh tipe elemen yang mengandung nilai "en" pada atribut lang */
+*[lang^=en] {
+    font-style: italic;
+}
+      
+/* Menargetkan seluruh tipe elemen yang memiliki nilai "warning" pada atribut class */
+*.warning {
+    color: red;
+}
+      
+/* Menargetkan seluruh tipe elemen yang memiliki nilai "content" pada atribut id */
+*#content {
+    border: 1px solid blue;
+    padding: 20px;
+}

@@ -1,0 +1,8 @@
+/* Padding merupakan jarak antara area konten dan border */
+
+footer {
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+}

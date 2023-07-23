@@ -1,0 +1,26 @@
+/* Relative positioning adalah melakukan perpindahan posisi elemen ke atas, kanan, bawah, maupun kiri. 
+Perpindahan posisi yang dilakukan tidak akan berpengaruh terhadap posisi elemen di sekitarnya */
+
+.relative {
+    position: relative;
+    top: 10px;
+    left: 100px;
+}
+
+/* Absolute positioning adalah sama seperti relative positioning, namun sering kali tidak dianggap dan posisinya 
+sering ditempati oleh elemen dibawahnya */
+
+.absolute {
+    position: absolute;
+    top: 0;
+    left: 500px;
+}
+
+/* Fixed positioning adalah absolute position namun posisinya selalu relatif pada jendela browser 
+(meskipun diletakan di dalam induk elemen diluar dari flow normal). Bahkan ketika pengguna melakukan scrolling posisinya akan tetap nampak pada posisinya di layar. */
+
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+}

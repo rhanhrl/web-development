@@ -1,0 +1,13 @@
+/* Rule yang dituliskan dalam block @media di bawah akan diterapkan pada device yang memiliki 
+ukuran viewport di bawah 992px */
+
+@media screen and (max-width : 992px) {
+
+}
+
+/* Rule yang digunakan dalam block @media dibawah akan diterapkan pada devce yang memiliki 
+ukuran viewport di bawah 600px*/
+
+@media screen and (max-width : 600px) {
+    
+}

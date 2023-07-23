@@ -1,0 +1,7 @@
+/* Box shadow Nilai dan cara kerja dari properti box-shadow mirip seperti text-shadow, yaitu 
+nilainya menentukan jarak vertikal dan horizontal, tingkat keburaman, dan warna pada bayangan. */
+
+body {
+    box-shadow: 6px 10 6px 10px #666666;
+}
+

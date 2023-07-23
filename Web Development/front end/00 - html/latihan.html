@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        .container {
+            display: flex;
+            width: 800px;
+            height: 250px;
+            border: 2px solid black;
+            border-radius: 10px;
+            padding: 20px;
+            background-color: aqua;
+            margin: 0 auto;
+            margin-top: 5px;
+        }
+
+        .container2 {
+            display: flex;
+            flex-direction: column;
+            width: 800px;
+            height: 250px;
+            border: 2px solid black;
+            border-radius: 10px;
+            padding: 20px;
+            background-color: aqua;
+            margin: 0 auto;
+            margin-top: 5px;
+        }
+
+        .box {
+            flex-grow: 1;
+            margin: 5px;
+            border: 1px solid black;
+            border-radius: 10px;
+            background-color: antiquewhite;
+            text-align: center;
+            color: black;
+        }
+
+        .first {
+            flex-grow: 1;
+        }
+
+        .second {
+            flex-grow: 2;
+        }
+
+        .third {
+            flex-grow: 1;
+        }
+
+        .fourth {
+            flex-grow: 3;
+        }
+
+        .container3 {
+            width: 800px;
+            border: 2px solid black;
+            margin: 0 auto;
+            margin-top: 5px;
+        }
+
+        #flex-column {
+            display: flex;
+            background-color: antiquewhite;
+        }
+
+        #flex-row {
+            display: flex;
+            background-color: antiquewhite;
+            flex-grow: 1;
+        }
+
+        .box2 {
+            flex-basis: 25%;
+            border: 2px solid black;
+            padding: 40px;
+            text-align: center;
+            font-size: 1.5em;
+            color: black;
+        }
+
+        .double {
+            flex-grow: 2;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+    </style>
+
+    <body>
+        <div class="container">
+            <div class="box">Raihan</div>
+            <div class="box">Raihan</div>
+            <div class="box">Raihan</div>
+        </div>
+
+        <div class="container">
+            <div class="box first">Raihan</div>
+            <div class="box second">Bunga</div>
+            <div class="box third">Raihan</div>
+        </div>
+
+        <div class="container2">
+            <div class="box first">Raihan</div>
+            <div class="box second">Raihan</div>
+            <div class="box fourth">Raihan</div>
+        </div>
+
+        <div class="container3">
+            <div id="flex-column">
+                <div class="box2">1</div>
+                <div class="box2">2</div>
+                <div class="box2">3</div>
+                <div class="box2">4</div>
+            </div>
+
+            <div id="flex-row">
+                <div class="box2">5</div>
+                <div class="box2">6</div>
+                <div class="box2 double">7</div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,65 @@
+@media screen and (max-width: 513px) {
+    .button {
+        padding: 10px;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.flex-container-column {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: right;
+}
+
+.flex-container-row {
+    display: flex;
+}
+
+.button {
+    flex-basis: 25%;
+    font-size: 1.5em;
+    text-align: center;
+    border: 1px solid black;
+    padding: 40px;
+    background: -webkit-linear-gradient(top, #d2d2d2, #ddd);
+    cursor: pointer;
+}
+
+.operator,
+.negative,
+.equals {
+    background-color: orange;
+}
+
+.card {
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 30px;
+}
+
+.double {
+    flex-basis: 50%;
+}
+
+.display {
+    color: white;
+    width: 100%;
+    padding: 40px;
+    background-color: #333333;
+    border: 1px solid black;
+    font-size: 2em;
+}
+
+.button:hover {
+    font-weight: bold;
+}

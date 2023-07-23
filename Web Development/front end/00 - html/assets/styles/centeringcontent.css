@@ -1,0 +1,12 @@
+/* Centering content merupakan perintah untuk memindahkan margin kanan atau kiri dengan menggunakan margin 0 auto */
+
+.center {
+    margin: 0 auto;
+}
+
+.box {
+    width: 50%;
+    border: 5px solid darkblue;
+    padding: 20px;
+    margin-bottom: 20px;
+}
